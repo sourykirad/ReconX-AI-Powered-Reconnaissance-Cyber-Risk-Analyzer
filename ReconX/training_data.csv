@@ -1,0 +1,25 @@
+site_id,source,evidence,severity,https_missing,missing_headers,server_error,resolved_ip_count,certificate_invalid,dns_invalid,hsts_missing,server_header_present,risk
+site-0001,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",Info,0,1,0,2,0,0,1,1,LOW
+site-0002,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",Info,0,0,0,1,0,0,0,1,LOW
+site-0003,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",Moderate,0,2,0,2,0,0,1,1,MEDIUM
+site-0004,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",Moderate,1,1,0,1,0,0,1,1,MEDIUM
+site-0005,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",High,1,3,0,1,1,0,1,1,HIGH
+site-0006,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",High,1,2,1,1,1,0,1,1,HIGH
+site-0007,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",High,0,3,1,2,1,0,1,1,HIGH
+site-0008,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",Moderate,0,1,1,1,0,0,1,1,MEDIUM
+site-0009,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",Info,0,0,0,3,0,0,0,1,LOW
+site-0010,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",Moderate,1,0,0,1,0,0,1,1,MEDIUM
+site-0011,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",High,0,2,1,3,1,0,1,1,HIGH
+site-0012,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",High,1,3,1,2,1,0,1,1,HIGH
+site-0013,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",Low,0,1,0,3,0,0,0,1,LOW
+site-0014,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",High,1,2,0,2,1,0,1,0,HIGH
+site-0015,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",Moderate,0,2,0,1,0,0,1,1,MEDIUM
+site-0016,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",High,1,1,1,2,1,0,1,1,HIGH
+site-0017,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",Moderate,0,0,1,1,0,0,1,1,MEDIUM
+site-0018,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",High,1,0,1,1,1,0,1,1,HIGH
+site-0019,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",Moderate,0,3,0,3,0,0,1,1,MEDIUM
+site-0020,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",Moderate,0,0,0,4,0,0,1,1,LOW
+site-0021,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",High,1,3,0,3,1,0,1,0,HIGH
+site-0022,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",Low,0,1,0,2,0,0,0,1,LOW
+site-0023,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",High,1,2,1,3,1,0,1,1,HIGH
+site-0024,authorized-lab-example,"TLS check, DNS resolution, status code, header review, and documented lab evidence. Not production-grade intelligence.",Moderate,0,2,0,4,0,0,1,1,MEDIUM
