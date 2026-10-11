@@ -122,8 +122,7 @@ def render_main_dashboard(result=None):
     with c3:
         show_result_card("Findings", len(result["findings"]))
     with c4:
-        https_color = "#0ea5e9" if result["https"] else "#d97706"
-        show_result_card("HTTPS", "Enabled" if result["https"] else "Not confirmed", accent=https_color)
+        show_result_card("HTTPS", "Enabled" if result["https"] else "Not confirmed", accent="#0ea5e9" if result["https"] else "#d97706")
     with c5:
         show_result_card("Resolved IPs", len(result["ips"]))
 

@@ -1,0 +1,94 @@
+{
+  "best_model": "RandomForest",
+  "models": {
+    "DecisionTree": {
+      "accuracy": 0.5,
+      "precision_macro": 0.611111111111111,
+      "recall_macro": 0.611111111111111,
+      "f1_macro": 0.6,
+      "confusion_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "classification_report": "              precision    recall  f1-score   support\n\n         LOW       0.33      0.50      0.40         2\n      MEDIUM       0.50      0.33      0.40         3\n        HIGH       1.00      1.00      1.00         1\n\n    accuracy                           0.50         6\n   macro avg       0.61      0.61      0.60         6\nweighted avg       0.53      0.50      0.50         6\n",
+      "false_negative_rate": 0.5
+    },
+    "RandomForest": {
+      "accuracy": 0.8333333333333334,
+      "precision_macro": 0.9166666666666666,
+      "recall_macro": 0.8333333333333334,
+      "f1_macro": 0.8412698412698413,
+      "confusion_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "classification_report": "              precision    recall  f1-score   support\n\n         LOW       1.00      0.50      0.67         2\n      MEDIUM       0.75      1.00      0.86         3\n        HIGH       1.00      1.00      1.00         1\n\n    accuracy                           0.83         6\n   macro avg       0.92      0.83      0.84         6\nweighted avg       0.88      0.83      0.82         6\n",
+      "false_negative_rate": 0.0
+    },
+    "GradientBoosting": {
+      "accuracy": 0.5,
+      "precision_macro": 0.611111111111111,
+      "recall_macro": 0.611111111111111,
+      "f1_macro": 0.6,
+      "confusion_matrix": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "classification_report": "              precision    recall  f1-score   support\n\n         LOW       0.33      0.50      0.40         2\n      MEDIUM       0.50      0.33      0.40         3\n        HIGH       1.00      1.00      1.00         1\n\n    accuracy                           0.50         6\n   macro avg       0.61      0.61      0.60         6\nweighted avg       0.53      0.50      0.50         6\n",
+      "false_negative_rate": 0.5
+    }
+  },
+  "dataset": {
+    "rows": 24,
+    "features": [
+      "https_missing",
+      "missing_headers",
+      "server_error",
+      "resolved_ip_count",
+      "certificate_invalid",
+      "dns_invalid",
+      "hsts_missing",
+      "server_header_present"
+    ],
+    "sites": 24
+  }
+}
